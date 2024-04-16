@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* min-height: 100%; */
+}
+
+
+section{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.header-box{
+    /* background-color: darkslategrey; */
+    background-image: url(../images/1600205740_7-p-fon-dayz-12.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+
+    color: azure;
+    text-align: right;
+    height: 200px;
+    padding-top: 20px;
+
+}
+.dayz-logo{
+    background-image: url(../images/dayz.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    /* border: 3px solid black; */
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+
+
+}
+
+@media (min-width: 390px) and (max-width: 768px) {
+    .dayz-logo{
+        width: 200px;
+        height: 90px;
+    }
+}
+.top-menu{
+    text-align: center;
+    /* margin: 0; */
+
+}
+.img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    /* gap: 10px;  */
+    overflow: hidden;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+
+    /* padding-top: 10px; */
+}
+.img-card{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+    /* gap: 10px;  */
+    overflow: hidden;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+
+
+    /* padding-top: 10px; */
+
+}
+.img-card img{
+    border-radius: 10px;
+}
+.img-mini img{
+    height: 80px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.img-mini{
+    margin: auto;
+
+}
+.row-basket{
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
+    padding-top: 30px;
+
+}
+
+img{
+
+    width: 100%;
+
+}
+
+.menu-link{
+    color: #4e4a4a;
+    text-decoration: none;
+    display: table-cell;
+    height: 100%;
+    vertical-align: bottom;
+    padding: 10px;
+}
+h3{
+    color: #4e4a4a;
+    /* padding-left: 15px;  */
+}
+.link-pr{
+    color: #4e4a4a;
+
+}
+.link-pr:hover{
+    color: coral;
+}
+
+h6{
+    margin-top: 5px;
+}
+
+.menu-link:hover{
+    color: coral;
+    position: relative;
+}
+.menu-link:active{
+    color: coral;
+}
+.logo{
+    color: coral !important;
+    font-size: 2em;
+
+
+}
+footer{
+    background-color:#4e4a4a;
+
+    bottom: 0;
+
+
+    margin: auto;
+    gap: 10px;
+    font-size: 11pt;
+}
+.foot{
+    color: azure;
+    text-align: center;
+    font-size: 0.9em;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.btn-submit{
+    width: 50px;
+    height: 50px;
+}
+p{
+text-align: center;
+font-size:medium;
+}
+.cat-card{
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
+    /* border-radius: 10px; */
+
+
+
+
+    justify-items: center;
+    padding-top: 20px;
+}
+.card-name{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+    border-radius: 0 0 10px 10px;
+    /* border: 1px solid grey; */
+
+
+}
+.card-price{
+    padding: 10px;
+    /* background-color: rgb(218, 216, 213); */
+    border-radius: 10px;
+
+
+
+}
+.card-price span{
+    font-weight:lighter;
+    /* vertical-align:bottom; */
+    font-size: 1.2em;
+}
+.btn-basket{
+    color: azure;
+    background-color: coral;
+    /* width: 137px; */
+    border-radius: 10px;
+
+}
+.btn-basket:hover{
+    background-color: rgb(247, 94, 38);
+    color: azure;
+
+}
+
+.col-12{
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+
+.gallery {
+    margin: auto;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    padding: 20px;
+    /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
+
+}
+
+
+.big img {
+    border-radius: 50px;
+    overflow: hidden;
+    height: 500px;
+}
+.small {
+    /* margin:auto; */
+    margin-top: 20px;
+    /* display: flex; */
+    justify-content: center;
+    /* gap: 5px; */
+}
+.small a img {
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    /* height: 80px; */
+}
+.small a img:hover{
+    border: 1px solid coral;
+
+}
+.price{
+    display: flex;
+    gap: 80px;
+    margin-top: 40px;
+    /* padding-top: 40px; */
+    font-weight: bold;
+    font-size: 1.5em;
+
+    /* height: 60px; */
+    /* padding-top: 45%; */
+    padding-left: 20px;
+
+}
+
+.descript{
+    padding-left: 20px;
+    padding-top: 40px;
+
+}
+.descript{
+    display: flex;
+    gap: 20px;
+
+}
+.vid{
+    /* width: 90%; */
+    padding-top: 30px;
+    margin: auto;
+}
+.vid iframe{
+    border-radius: 10px;
+    width: 80%;
+    height: 480px;
+}
+
+.counter{
+
+    font-size: 0.8em;
+    position: absolute;
+    z-index: 1;
+    padding-left: 37px;
+    color: coral;
+    padding-right: 10px;
+
+
+}
+.forcard{
+    display: flex;
+    gap: 5px;
+}
+.Page-link{
+    color: #4e4a4a;
+
+}
+.Page-link:hover{
+    color: coral;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 127, 80, 0.8);
+
+}
+li.page-item.active span{
+    background-color: coral !important;
+    border-radius: 10px;
+    border: none;
+
+}
+
+
+.form-control:focus {
+    /* border-color: #4e4a4a; */
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 127, 80, 0.8);
+  }
+.alert-success{
+    background: none;
+    color: forestgreen;
+    border: none;
+}
+.alert-warning{
+    background: none;
+    border: none;
+    color:tomato
+}
+
