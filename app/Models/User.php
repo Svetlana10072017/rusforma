@@ -19,7 +19,9 @@ class User extends Authenticatable
     protected $fillable = [
         'name',
         'email',
+        'role_admin',
         'password',
+
     ];
 
     /**
@@ -52,6 +54,10 @@ class User extends Authenticatable
     public function orders()
     { //реализация связи между пользователем и заказами
         return $this->hasMany(Order::class);
+    }
+    public function setRole_adminAttribute($value)
+    {  //массив атрибут в поле нью присваиваем занчение, если значение оn, то присваиваем 0, иначе 1
+        $this->attributes['role_admin'] = $value === 'on' ? 1 : 0;
     }
 }
 

@@ -59,9 +59,19 @@ class UserController extends Controller
     public function update(UserRequest $request, User $user)
     {
         $params = $request->all();
-        //$params['image'] = $path;
+        // if($params['role_admin']==='off'){
+        //     $params['role_admin']=0;
+
+        // }
+        // else{
+        //     $params['role_admin']=1;
+
+        // }
+
+
+
         if (!isset($params['role_admin'])) {
-            $params['role_admin'] = 1;
+            $params['role_admin'] = 0;
         }
 
         $user->update($params);//обновление параметров категории

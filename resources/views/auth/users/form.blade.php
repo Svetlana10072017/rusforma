@@ -32,7 +32,8 @@
                 <div class="input-group row">
                     <label for="code" class="col-sm-2 col-form-label">Имя:</label>
                     <div class="col-sm-6">
-                        {{-- @include('auth.layouts.error', ['fieldName' => 'code']) --}}
+
+
 
                         <input type="text" class="form-control" name="name" id="name"
                                value="{{ $user->name ?? "" }}">
@@ -45,9 +46,10 @@
                 <div class="input-group row">
                     <label for="email" class="col-sm-2 col-form-label">e-mail: </label>
                     <div class="col-sm-2">
-                        {{-- @include('auth.layouts.error', ['fieldName' => 'price']) --}}
+
+
                         <input type="text" class="form-control" name="email" id="email"
-                               value="{{ $user->email ?? "" }}">
+                               value="{{ $user->email ?? ""}}" >
                     </div>
                 </div>
                 <br>
