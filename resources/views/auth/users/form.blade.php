@@ -36,7 +36,7 @@
 
 
                         <input type="text" class="form-control" name="name" id="name"
-                               value="{{ $user->name ?? "" }}">
+                               value="{{ $user->name ?? "" }}" readonly>
                     </div>
                 </div>
                 <br>
@@ -49,7 +49,7 @@
 
 
                         <input type="text" class="form-control" name="email" id="email"
-                               value="{{ $user->email ?? ""}}" >
+                               value="{{ $user->email ?? ""}}" readonly>
                     </div>
                 </div>
                 <br>

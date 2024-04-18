@@ -26,7 +26,7 @@
                 </div>
                   </div>
                   <div class="row-mb-3">
-                    <label class="col-sm-2 col-form-label" for="phone">Телефон</label>
+                    <label class="col-sm-2 col-form-label" for="phone">Телефон (не обязательно)</label>
                     <div class="col-sm-8">
                     <input type="text"  name="phone" class="form-control border border-secondary phone" id="phone" placeholder="">
                 </div>
@@ -40,7 +40,7 @@
 
                   </div>
                 <div class="row-mb-3">
-                    <label class="col-sm-2 col-form-label" for="message">Комментарий к заказу</label>
+                    <label class="col-sm-2 col-form-label" for="message">Комментарий к заказу (не обязательно)</label>
                     <div class="col-sm-8">
                     <textarea name="message"  class="form-control border border-secondary" cols="40" rows="8" id="message"></textarea>
                 </div>

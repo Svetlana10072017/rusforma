@@ -29,7 +29,7 @@ class BasketIsNotEmpty
         }
 
         session()->forget('ordercount');
-        session()->flash('warning', 'Пустая корзина!');//выдает оповещение о пустой корзине
+        session()->flash('warning', 'В корзине нет товаров!');//выдает оповещение о пустой корзине
         return to_route('index');
 
 

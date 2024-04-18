@@ -19,6 +19,9 @@
                                 Действия
                             </th>
                         </tr>
+
+
+
                         @foreach ($images  as $image)
                         <tr>
                             <td>{{$image->id}}</td>
@@ -41,6 +44,7 @@
                             </td>
                         </tr>
                         @endforeach
+
 
 
                     </tbody>
