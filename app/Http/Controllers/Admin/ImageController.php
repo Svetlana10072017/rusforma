@@ -19,8 +19,8 @@ class ImageController extends Controller
     //Вывод страницы продуктов в админке
     public function index()
     {
-        //$products=Product::get()->first();
-        $images=Image::paginate(6);
+        $images=Image::orderBy('product_id')->paginate(6);//макс кол-во товаров отображаемых на странице
+        // $products = Product::get();
         return view('auth.images.index', compact('images'));
     }
 

@@ -68,34 +68,14 @@
                     @auth
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#collapseExample" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link " href="{{route('logout')}}" role="button" data-toggle=""
+                            aria-haspopup="true" aria-expanded="false" v-pre> Выйти
                             {{-- для отображении названия панели Админ --}}
-                            @if(Auth::check()&&Auth::user()->roleAdmin())Администратор
-                            {{-- для отображения панели с именем зарегестрированнго пользователя без прав админа --}}
-                            @else {{ Auth::user()->name }}
-                            @endif
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" >
-                                <a class="dropdown-item" href="{{route('logout')}}"
-                                onclick="event.preventDefault();
-                                                  document.getElementById('logout-form').submit();">
-                                                  Выйти</a>
 
-                            <form id="logout-form" action="{{route('logout')}}" method="POST" style="display: none;">
-                               @csrf
-                            </form>
-                             {{-- для отображении названия панели Админ --}}
-                            @if(Auth::check()&&Auth::user()->roleAdmin())
-                            {{-- кнопка сброса до исходного состояния --}}
-                            {{-- <a class="dropdown-item" href="{{route('reset')}}"
-                                onclick="event.preventDefault();
-                                                  document.getElementById('reset-form').submit();">
-                                                  Reset</a> --}}
-                            {{-- <form id="reset-form" action="{{route('reset')}}" method="GET" style="display: none;">
-                               @csrf
-                            </form> --}}
-                            @endif
+                            </a>
+
+
+
                             </div>
                         </li>
                     </ul>
