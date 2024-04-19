@@ -62,9 +62,9 @@
         </div>
         </div>
 </div>
-<div class="container-sm d-flex justify-content-center vid">
+{{-- <div class="container-sm d-flex justify-content-center vid">
     <iframe src="https://vk.com/video_ext.php?oid=-199735329&id=456239112&hd=2"  allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
-      </div>
+      </div> --}}
 
 
 
