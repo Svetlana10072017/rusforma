@@ -11,7 +11,7 @@
 
       <div class="col-sm-8 gallery">
             <div class="row big">
-         <img src="{{Storage::url($prodinfo->image)}}" alt="" width="400">
+         <img src="{{Storage::url($prodinfo->image)}}" alt="">
             </div>
          <div class="row small">
             @foreach ($prodinfo->images as $image )

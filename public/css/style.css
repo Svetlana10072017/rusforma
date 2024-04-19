@@ -223,7 +223,9 @@ font-size:medium;
     /* box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2); */
 
 }
-
+.big{
+    height: 500px;
+}
 
 .big img {
     border-radius: 50px;
